@@ -1,0 +1,7 @@
+{
+  "alert": {
+    "enabled": false,
+    "en": "Reservations are on OpenTable for each room — not on this preview.",
+    "fr": "Les réservations passent par OpenTable pour chaque salle — pas sur cet aperçu."
+  }
+}

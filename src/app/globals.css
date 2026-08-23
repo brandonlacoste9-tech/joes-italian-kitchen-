@@ -1,0 +1,96 @@
+@import 'tailwindcss';
+
+:root {
+  --paper: #f4efe6;
+  --ink: #1c1410;
+  --muted: #6b5c52;
+  --red: #7a1f24;
+  --night: #1a1010;
+  --cream: #fbf6ee;
+  --gold: #c4a35a;
+  --olive: #3d4a32;
+  --line: #e4d8c8;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-red: var(--red);
+  --color-night: var(--night);
+  --color-cream: var(--cream);
+  --color-gold: var(--gold);
+  --color-olive: var(--olive);
+  --color-line: var(--line);
+  --font-heading: var(--font-heading);
+  --font-sans: var(--font-body);
+}
+
+@layer base {
+  html {
+    background: var(--paper);
+    color: var(--ink);
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body), Georgia, serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-heading), Georgia, serif;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px;
+  padding: 0.8rem 1.2rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.btn-red {
+  background: var(--red);
+  color: #fff;
+  border: 1px solid #5c161a;
+}
+
+.btn-gold {
+  background: var(--gold);
+  color: #1c1410;
+  border: 1px solid #a6863e;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+}
+
+.kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+}

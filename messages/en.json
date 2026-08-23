@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "site": "Joe's Italian Kitchen",
+    "description": "Joe's Italian Kitchen — Almonte, Wellington West, and Preston Street. Pinsa, pasta, OpenTable. info@joesitaliankitchen.ca"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "locations": "Locations",
+    "almonte": "Almonte",
+    "wellington": "Wellington",
+    "preston": "Preston",
+    "hours": "Hours",
+    "about": "About",
+    "contact": "Contact",
+    "gifts": "Gift cards",
+    "order": "Order online",
+    "strip": "Almonte · Wellington West · Little Italy"
+  },
+  "callbar": {
+    "line": "Reservations are on OpenTable — we do not book tables on this preview.",
+    "short": "OpenTable for tables — not this preview.",
+    "rooms": "The rooms"
+  },
+  "home": {
+    "kicker": "Simply Italian.",
+    "title": "Where exceptional flavours meet a warm room.",
+    "lead": "Old-world tradition with new-world cooking, as they write it. Three open rooms. Canada’s first certified Pinsaria, on their home page.",
+    "ctaLocations": "The rooms",
+    "ctaMenu": "Menu",
+    "ctaOrder": "Order online",
+    "heroAlt": "A Joe's pinsa with tomatoes and basil.",
+    "roomsTitle": "Our locations",
+    "roomsLead": "Three open rooms. Reservations are on OpenTable for each one — this preview does not take tables.",
+    "pinsaTitle": "Pinsa Romana",
+    "pinsaLead": "They write: a blend of sourdough, rice, soy and wheat flour, imported from Rome. Caputo 00, DiMarco Pinsa flour, San Marzano DOP tomatoes.",
+    "menuTitle": "From the board",
+    "menuLead": "Dishes as printed. No invented prices — their dine-in HTML does not list dollars.",
+    "menuMore": "Full menu notes",
+    "photosTitle": "The kitchen, as they photograph it",
+    "photosLead": "Photos from their site. We did not generate plates."
+  },
+  "locationsPage": {
+    "kicker": "three rooms",
+    "title": "Locations",
+    "lead": "Almonte, Wellington West, and Preston Street. Camelot Drive still has a page — it prints CLOSED.",
+    "open": "Open"
+  },
+  "menu": {
+    "kicker": "dine-in",
+    "title": "Menu",
+    "lead": "Shared dishes from their Almonte, Wellington, and Preston dine-in pages. Builds differ slightly by room. We do not invent prices.",
+    "note": "Full live boards stay on joesitaliankitchen.ca. Allergies: ask the kitchen.",
+    "live": "Their dine-in page",
+    "jump": "Jump to section"
+  },
+  "hours": {
+    "kicker": "the board",
+    "title": "Hours",
+    "lead": "As printed on each location page. A few weekday lines on the live site are blank or doubled — we note that.",
+    "reserve": "Reserve on OpenTable for that room. This preview does not take tables."
+  },
+  "about": {
+    "kicker": "Benvenuti",
+    "title": "About",
+    "lead": "Weaving old world traditions with new world creativity. Their goal is a diverse menu that preserves and elevates hearty dishes — the true essence of Italian cuisine, as they write it.",
+    "pinsa": "Canada’s first certified Pinsaria, on their home page.",
+    "camelot": "Joe's Pinsa & Panini at 60 Camelot Drive, Nepean, still has a page. It prints CLOSED.",
+    "photoAlt": "Patio at the Almonte mill — Joe’s sign, Cinzano umbrellas, the river beyond."
+  },
+  "contact": {
+    "kicker": "the rooms",
+    "title": "Contact",
+    "lead": "info@joesitaliankitchen.ca is on every page. Almonte also prints almonte@joesitaliankitchen.ca. Reservations are OpenTable for each room — not a form here.",
+    "map": "Map",
+    "emailNote": "This preview does not take bookings by email. Use OpenTable, or call the room."
+  },
+  "gifts": {
+    "kicker": "Toast",
+    "title": "Gift cards",
+    "lead": "Wellington and Almonte gift cards are on Toast, as their footer prints. We did not find a Preston gift-card button.",
+    "buy": "Buy",
+    "balance": "Check balance",
+    "preston": "No Preston gift-card link on their live site."
+  },
+  "loc": {
+    "reserve": "Reserve on OpenTable",
+    "call": "Call",
+    "menu": "Dine-in menu",
+    "order": "Order online",
+    "orderNote": "Almonte and Wellington share one Mobi2go order link on their nav. Preston has no Order Online item in that menu.",
+    "hours": "Hours",
+    "map": "Map",
+    "liveMenu": "Live dine-in page",
+    "gift": "Gift card"
+  },
+  "footer": {
+    "line": "Simply Italian.",
+    "copy": "Preview of joesitaliankitchen.ca. Live WordPress stays until they say otherwise. French is a courtesy toggle — their site is English."
+  }
+}

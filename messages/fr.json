@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "site": "Joe's Italian Kitchen",
+    "description": "Joe's Italian Kitchen — Almonte, Wellington West et Preston. Pinsa, pasta, OpenTable. info@joesitaliankitchen.ca"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer",
+    "locations": "Salles",
+    "almonte": "Almonte",
+    "wellington": "Wellington",
+    "preston": "Preston",
+    "hours": "Heures",
+    "about": "À propos",
+    "contact": "Contact",
+    "gifts": "Cartes-cadeaux",
+    "order": "Commander",
+    "strip": "Almonte · Wellington West · Petite-Italie"
+  },
+  "callbar": {
+    "line": "Les réservations passent par OpenTable — pas sur cet aperçu.",
+    "short": "OpenTable — pas ici.",
+    "rooms": "Les salles"
+  },
+  "home": {
+    "kicker": "Simply Italian.",
+    "title": "Des saveurs nettes, une salle chaude.",
+    "lead": "Traditions et cuisine d’aujourd’hui, comme ils l’écrivent. Trois salles ouvertes. Première Pinsaria certifiée au Canada, sur leur accueil.",
+    "ctaLocations": "Les salles",
+    "ctaMenu": "Menu",
+    "ctaOrder": "Commander",
+    "heroAlt": "Une pinsa Joe's, tomates et basilic.",
+    "roomsTitle": "Nos salles",
+    "roomsLead": "Trois salles ouvertes. Réservations sur OpenTable pour chacune — cet aperçu ne prend pas de tables.",
+    "pinsaTitle": "Pinsa Romana",
+    "pinsaLead": "Ils écrivent : farines de levain, riz, soja et blé, importées de Rome. Caputo 00, DiMarco, tomates San Marzano DOP.",
+    "menuTitle": "Sur le tableau",
+    "menuLead": "Plats tels qu’imprimés. Pas de prix inventés.",
+    "menuMore": "Notes de menu",
+    "photosTitle": "La cuisine, comme ils la photographient",
+    "photosLead": "Photos de leur site. Nous n’avons pas généré d’assiettes."
+  },
+  "locationsPage": {
+    "kicker": "trois salles",
+    "title": "Salles",
+    "lead": "Almonte, Wellington West et Preston. Camelot Drive a encore une page — elle imprime FERMÉ.",
+    "open": "Ouvert"
+  },
+  "menu": {
+    "kicker": "sur place",
+    "title": "Menu",
+    "lead": "Plats des pages Almonte, Wellington et Preston. Les compositions varient un peu. Nous n’inventons pas les prix.",
+    "note": "Les cartes complètes restent sur joesitaliankitchen.ca. Allergies : demander à la cuisine.",
+    "live": "Leur page dine-in",
+    "jump": "Aller à la section"
+  },
+  "hours": {
+    "kicker": "le tableau",
+    "title": "Heures",
+    "lead": "Comme sur chaque page de salle. Certaines lignes en semaine sont vides ou doublées — nous le notons.",
+    "reserve": "Réserver sur OpenTable pour cette salle. Cet aperçu ne prend pas de tables."
+  },
+  "about": {
+    "kicker": "Benvenuti",
+    "title": "À propos",
+    "lead": "Traditions et créativité. Leur but : un menu qui garde et élève les plats copieux — l’essence de la cuisine italienne, comme ils l’écrivent.",
+    "pinsa": "Première Pinsaria certifiée au Canada, sur leur accueil.",
+    "camelot": "Joe's Pinsa & Panini au 60 Camelot Drive, Nepean, a encore une page. Elle imprime FERMÉ.",
+    "photoAlt": "Terrasse du moulin à Almonte — enseigne Joe’s, parasols Cinzano, la rivière."
+  },
+  "contact": {
+    "kicker": "les salles",
+    "title": "Contact",
+    "lead": "info@joesitaliankitchen.ca est sur chaque page. Almonte imprime aussi almonte@joesitaliankitchen.ca. Réservations : OpenTable par salle — pas de formulaire ici.",
+    "map": "Carte",
+    "emailNote": "Cet aperçu ne prend pas de réservations par courriel. OpenTable, ou appeler la salle."
+  },
+  "gifts": {
+    "kicker": "Toast",
+    "title": "Cartes-cadeaux",
+    "lead": "Wellington et Almonte sont sur Toast, comme leur pied de page. Pas de bouton Preston trouvé.",
+    "buy": "Acheter",
+    "balance": "Solde",
+    "preston": "Pas de lien carte-cadeau Preston sur leur site."
+  },
+  "loc": {
+    "reserve": "Réserver sur OpenTable",
+    "call": "Appeler",
+    "menu": "Menu sur place",
+    "order": "Commander en ligne",
+    "orderNote": "Almonte et Wellington partagent un lien Mobi2go. Preston n’a pas d’item Order Online dans ce menu.",
+    "hours": "Heures",
+    "map": "Carte",
+    "liveMenu": "Leur page dine-in",
+    "gift": "Carte-cadeau"
+  },
+  "footer": {
+    "line": "Simply Italian.",
+    "copy": "Aperçu de joesitaliankitchen.ca. Le WordPress reste en ligne tant qu’ils ne disent pas autrement. Le français est un bascule de courtoisie — leur site est en anglais."
+  }
+}
