@@ -23,19 +23,26 @@ export default async function HomePage({ params }: Props) {
     <>
       <section className="relative isolate min-h-[min(82vh,44rem)] overflow-hidden bg-night">
         <img src={house.hero} alt={t('heroAlt')} className="absolute inset-0 h-full w-full object-cover object-center" />
-        <div className="absolute inset-0 bg-gradient-to-r from-night/90 via-night/50 to-night/20" aria-hidden="true" />
-        <div className="relative z-10 mx-auto flex min-h-[min(82vh,44rem)] max-w-[1280px] flex-col justify-end px-6 pb-16 pt-28">
-          <p className="kicker">{t('kicker')}</p>
-          <h1 className="mt-3 max-w-3xl text-5xl text-white md:text-7xl">{t('title')}</h1>
-          <p className="mt-5 max-w-xl text-lg text-white/85">{t('lead')}</p>
-          <div className="mt-8 flex flex-wrap gap-3">
+        <div className="absolute inset-0 bg-night/40" aria-hidden="true" />
+        <div className="relative z-10 mx-auto flex min-h-[min(82vh,44rem)] max-w-[1280px] flex-col items-center justify-center px-6 pb-16 pt-28 text-center">
+          <h1>
+            <img
+              src={house.logoGold}
+              alt="Joe's Italian Kitchen"
+              width={788}
+              height={800}
+              className="hero-logo h-44 w-auto md:h-56 lg:h-64"
+            />
+          </h1>
+          <p className="kicker mt-6">{t('kicker')}</p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link href="/locations" className="btn btn-gold">
               {t('ctaLocations')}
             </Link>
-            <Link href="/menu" className="btn btn-ghost border-white text-white">
+            <Link href="/menu" className="btn border border-gold bg-night/60 text-gold">
               {t('ctaMenu')}
             </Link>
-            <a href={house.orderOnline} className="btn btn-ghost border-white text-white" target="_blank" rel="noreferrer">
+            <a href={house.orderOnline} className="btn border border-gold bg-night/60 text-gold" target="_blank" rel="noreferrer">
               {t('ctaOrder')}
             </a>
           </div>
