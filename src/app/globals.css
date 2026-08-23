@@ -7,7 +7,9 @@
   --red: #7a1f24;
   --night: #1a1010;
   --cream: #fbf6ee;
-  --gold: #c4a35a;
+  --gold: #f0c94a;
+  --gold-deep: #c99714;
+  --gold-shine: #fff1b0;
   --olive: #3d4a32;
   --line: #e4d8c8;
 }
@@ -20,6 +22,8 @@
   --color-night: var(--night);
   --color-cream: var(--cream);
   --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
+  --color-gold-shine: var(--gold-shine);
   --color-olive: var(--olive);
   --color-line: var(--line);
   --font-heading: var(--font-heading);
@@ -76,9 +80,12 @@
 }
 
 .btn-gold {
-  background: var(--gold);
+  background: linear-gradient(180deg, #fff1b0 0%, #f0c94a 46%, #c99714 100%);
   color: #1c1410;
-  border: 1px solid #a6863e;
+  border: 1px solid #ffe38a;
+  box-shadow:
+    inset 0 1px 0 #fff8d4,
+    0 6px 16px rgb(201 151 20 / 0.38);
 }
 
 .btn-ghost {
@@ -96,7 +103,10 @@
 }
 
 .hero-logo {
-  filter: drop-shadow(0 10px 28px rgb(0 0 0 / 0.55));
+  filter:
+    drop-shadow(0 0 6px rgb(255 241 176 / 0.95))
+    drop-shadow(0 0 22px rgb(240 201 74 / 0.7))
+    drop-shadow(0 12px 28px rgb(0 0 0 / 0.5));
 }
 
 .menu-wallpaper {
@@ -107,7 +117,7 @@
   background-size: auto, 380px 380px;
   background-position: center, center;
   padding: 1.15rem 0.8rem 1.35rem;
-  box-shadow: inset 0 0 0 3px rgb(196 163 90 / 0.92);
+  box-shadow: inset 0 0 0 3px rgb(240 201 74 / 0.95);
 }
 
 @media (min-width: 768px) {
@@ -136,7 +146,7 @@
   content: '';
   position: absolute;
   inset: 7px;
-  border: 1px solid rgb(196 163 90 / 0.7);
+  border: 1px solid rgb(240 201 74 / 0.75);
   pointer-events: none;
   z-index: 1;
 }
