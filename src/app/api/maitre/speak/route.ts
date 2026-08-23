@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Nothing to say.' }, { status: 400 });
   }
 
-  const voice = process.env.ELEVENLABS_VOICE_ID || 'onwK4e9ZLuTAKqWW03F9';
+  const voice = process.env.ELEVENLABS_VOICE_ID || 'zcAOhNBS3c14rBihAFp1';
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}`, {
     method: 'POST',
     headers: {
