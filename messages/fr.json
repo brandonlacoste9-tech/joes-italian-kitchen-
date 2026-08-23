@@ -112,6 +112,12 @@
     "menu": "Les pinsas Joe’s",
     "note": "Les lignes santé du site Canada sont les leurs. Nous n’ajoutons pas de chiffres qu’ils n’impriment pas."
   },
+  "music": {
+    "playing": "Musique italienne",
+    "idle": "Musique arrêtée",
+    "on": "Lancer la musique italienne",
+    "off": "Arrêter la musique italienne"
+  },
   "footer": {
     "line": "Simply Italian.",
     "copy": "Aperçu de joesitaliankitchen.ca. Le WordPress reste en ligne tant qu’ils ne disent pas autrement. Le français est un bascule de courtoisie — leur site est en anglais."

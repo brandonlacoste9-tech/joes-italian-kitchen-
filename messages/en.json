@@ -112,6 +112,12 @@
     "menu": "Joe’s pinsas",
     "note": "Health and calorie lines on the Canada site are theirs. We do not add numbers they did not print."
   },
+  "music": {
+    "playing": "Italian music",
+    "idle": "Music off",
+    "on": "Play Italian music",
+    "off": "Stop Italian music"
+  },
   "footer": {
     "line": "Simply Italian.",
     "copy": "Preview of joesitaliankitchen.ca. Live WordPress stays until they say otherwise. French is a courtesy toggle — their site is English."
