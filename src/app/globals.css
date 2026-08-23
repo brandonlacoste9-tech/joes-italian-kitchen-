@@ -103,13 +103,39 @@
 }
 
 .hero-name {
+  position: relative;
   display: block;
   font-family: var(--font-heading), Georgia, serif;
   font-size: clamp(2.7rem, 6.6vw, 5.6rem);
   font-weight: 600;
   line-height: 0.95;
+  letter-spacing: -0.01em;
+  overflow: visible;
+}
+
+.hero-name-stroke,
+.hero-name-fill {
+  display: block;
+}
+
+.hero-name-stroke {
+  position: absolute;
+  inset: 0;
+  color: transparent;
+  pointer-events: none;
+}
+
+.hero-name-stroke-black {
+  -webkit-text-stroke: 0.09em #0a0806;
+}
+
+.hero-name-stroke-gold {
+  -webkit-text-stroke: 0.04em var(--gold);
+}
+
+.hero-name-fill {
+  position: relative;
   color: #fbf6ee;
-  letter-spacing: -0.02em;
 }
 
 .hero-rule {

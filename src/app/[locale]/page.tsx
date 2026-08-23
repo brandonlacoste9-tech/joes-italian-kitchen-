@@ -28,7 +28,15 @@ export default async function HomePage({ params }: Props) {
           aria-hidden="true"
         />
         <div className="relative z-10 mx-auto flex min-h-[min(86vh,48rem)] max-w-[1280px] flex-col justify-end px-6 pb-16 pt-28 md:pb-20">
-          <h1 className="hero-name max-w-xl">{house.name}</h1>
+          <h1 className="hero-name max-w-xl">
+            <span className="hero-name-stroke hero-name-stroke-black" aria-hidden="true">
+              {house.name}
+            </span>
+            <span className="hero-name-stroke hero-name-stroke-gold" aria-hidden="true">
+              {house.name}
+            </span>
+            <span className="hero-name-fill">{house.name}</span>
+          </h1>
           <span className="hero-rule mt-5" aria-hidden="true" />
           <p className="hero-line mt-5 max-w-md">{t('title')}</p>
           <div className="mt-8 flex flex-wrap gap-3">
