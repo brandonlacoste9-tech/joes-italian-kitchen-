@@ -105,27 +105,25 @@
 .hero-name {
   display: block;
   font-family: var(--font-heading), Georgia, serif;
-  font-size: clamp(2.6rem, 6.4vw, 5.4rem);
+  font-size: clamp(2.7rem, 6.6vw, 5.6rem);
   font-weight: 600;
   line-height: 0.95;
-  color: var(--gold);
+  color: #fbf6ee;
   letter-spacing: -0.02em;
-  text-shadow: 0 2px 0 #000;
 }
 
-.hero-line-wrap {
-  line-height: 1.7;
+.hero-rule {
+  display: block;
+  width: 3.25rem;
+  height: 1px;
+  background: var(--gold);
 }
 
 .hero-line {
-  display: inline;
-  padding: 0.18em 0.42em;
-  font-size: clamp(1.05rem, 2.1vw, 1.35rem);
-  font-weight: 600;
-  color: #1a1010;
-  background: var(--gold);
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  font-size: clamp(1.02rem, 1.9vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(251 246 238 / 0.88);
 }
 
 .menu-wallpaper {

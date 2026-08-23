@@ -24,24 +24,20 @@ export default async function HomePage({ params }: Props) {
       <section className="relative isolate min-h-[min(86vh,48rem)] overflow-hidden bg-night">
         <img src={house.hero} alt={t('heroAlt')} className="absolute inset-0 h-full w-full object-cover object-[center_62%]" />
         <div
-          className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/40 to-transparent"
+          className="absolute inset-0 bg-gradient-to-r from-night/70 via-night/15 to-transparent"
           aria-hidden="true"
         />
         <div className="relative z-10 mx-auto flex min-h-[min(86vh,48rem)] max-w-[1280px] flex-col justify-end px-6 pb-16 pt-28 md:pb-20">
           <h1 className="hero-name max-w-xl">{house.name}</h1>
-          <p className="hero-line-wrap mt-5 max-w-lg">
-            <span className="hero-line">{t('title')}</span>
-          </p>
+          <span className="hero-rule mt-5" aria-hidden="true" />
+          <p className="hero-line mt-5 max-w-md">{t('title')}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/locations" className="btn btn-gold">
               {t('ctaLocations')}
             </Link>
-            <Link href="/menu" className="btn border border-gold bg-night/70 text-gold">
+            <Link href="/menu" className="btn border border-[#fbf6ee]/70 bg-night/35 text-[#fbf6ee]">
               {t('ctaMenu')}
             </Link>
-            <a href={house.orderOnline} className="btn border border-gold bg-night/70 text-gold" target="_blank" rel="noreferrer">
-              {t('ctaOrder')}
-            </a>
           </div>
         </div>
       </section>
