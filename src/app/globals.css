@@ -102,11 +102,24 @@
   color: var(--gold);
 }
 
-.hero-logo {
-  filter:
-    drop-shadow(0 0 6px rgb(255 241 176 / 0.95))
-    drop-shadow(0 0 22px rgb(240 201 74 / 0.7))
-    drop-shadow(0 12px 28px rgb(0 0 0 / 0.5));
+.hero-mark {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-mark::before {
+  content: '';
+  position: absolute;
+  inset: 14%;
+  z-index: -1;
+  border-radius: 50%;
+  background: rgb(240 201 74 / 0.32);
+  filter: blur(16px);
+}
+
+.hero-mark svg {
+  display: block;
+  overflow: visible;
 }
 
 .menu-wallpaper {

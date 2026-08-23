@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { GoldMark } from '@/components/GoldMark';
 import { WallpaperFrame } from '@/components/layout/WallpaperFrame';
 import { house, locations, plates } from '@/content/house';
 import { homePicks, menu } from '@/content/menu';
@@ -25,14 +26,8 @@ export default async function HomePage({ params }: Props) {
         <img src={house.hero} alt={t('heroAlt')} className="absolute inset-0 h-full w-full object-cover object-center" />
         <div className="absolute inset-0 bg-night/40" aria-hidden="true" />
         <div className="relative z-10 mx-auto flex min-h-[min(82vh,44rem)] max-w-[1280px] flex-col items-center justify-center px-6 pb-16 pt-28 text-center">
-          <h1>
-            <img
-              src={house.logoGold}
-              alt="Joe's Italian Kitchen"
-              width={788}
-              height={800}
-              className="hero-logo h-44 w-auto md:h-56 lg:h-64"
-            />
+          <h1 className="hero-mark">
+            <GoldMark className="h-44 w-44 md:h-56 md:w-56 lg:h-64 lg:w-64" />
           </h1>
           <p className="kicker mt-6">{t('kicker')}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">

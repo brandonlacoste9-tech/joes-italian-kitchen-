@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
-import { Playfair_Display, Source_Sans_3 } from 'next/font/google';
+import { Oswald, Playfair_Display, Source_Sans_3 } from 'next/font/google';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -21,6 +21,12 @@ const body = Source_Sans_3({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-body',
+});
+
+const mark = Oswald({
+  subsets: ['latin'],
+  weight: ['500', '600', '700'],
+  variable: '--font-mark',
 });
 
 type Props = {
@@ -59,7 +65,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${heading.variable} ${body.variable}`}>
+    <html lang={locale} className={`${heading.variable} ${body.variable} ${mark.variable}`}>
       <body className="relative flex min-h-dvh flex-col antialiased">
         <RestaurantJsonLd />
         <NextIntlClientProvider messages={messages}>
