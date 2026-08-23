@@ -52,8 +52,22 @@ export function SiteHeader() {
     <div className={open ? 'sticky top-0 z-[70]' : 'sticky top-0 z-30'}>
       <div className="bg-red text-white">
         <div className="mx-auto flex max-w-[1280px] flex-wrap items-center justify-between gap-2 px-4 py-2 text-[0.78rem] font-bold tracking-[0.08em] uppercase md:px-6">
-          <span>{t('strip')}</span>
-          <span className="text-white/80">OpenTable</span>
+          <nav aria-label={t('locations')} className="flex flex-wrap items-center gap-x-2">
+            <Link href="/almonte" className="underline-offset-2 hover:underline">
+              {t('almonte')}
+            </Link>
+            <span aria-hidden="true">·</span>
+            <Link href="/wellington" className="underline-offset-2 hover:underline">
+              {t('wellingtonWest')}
+            </Link>
+            <span aria-hidden="true">·</span>
+            <Link href="/preston" className="underline-offset-2 hover:underline">
+              {t('littleItaly')}
+            </Link>
+          </nav>
+          <Link href="/hours" className="text-white/90 underline-offset-2 hover:text-white hover:underline">
+            {t('openTable')}
+          </Link>
         </div>
       </div>
       <header className="border-b border-gold/40 bg-night text-white">

@@ -16,7 +16,10 @@
     "contact": "Contact",
     "gifts": "Cartes-cadeaux",
     "order": "Commander",
-    "strip": "Almonte · Wellington West · Petite-Italie"
+    "strip": "Almonte · Wellington West · Petite-Italie",
+    "wellingtonWest": "Wellington West",
+    "littleItaly": "Petite-Italie",
+    "openTable": "OpenTable"
   },
   "callbar": {
     "line": "Les réservations passent par OpenTable — pas sur cet aperçu.",

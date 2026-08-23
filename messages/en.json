@@ -16,7 +16,10 @@
     "contact": "Contact",
     "gifts": "Gift cards",
     "order": "Order online",
-    "strip": "Almonte · Wellington West · Little Italy"
+    "strip": "Almonte · Wellington West · Little Italy",
+    "wellingtonWest": "Wellington West",
+    "littleItaly": "Little Italy",
+    "openTable": "OpenTable"
   },
   "callbar": {
     "line": "Reservations are on OpenTable — we do not book tables on this preview.",
