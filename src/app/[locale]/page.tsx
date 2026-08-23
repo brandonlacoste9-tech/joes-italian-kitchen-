@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { WallpaperFrame } from '@/components/layout/WallpaperFrame';
 import { house, locations, plates } from '@/content/house';
 import { homePicks, menu } from '@/content/menu';
 import { Link } from '@/i18n/navigation';
@@ -85,23 +86,21 @@ export default async function HomePage({ params }: Props) {
         </div>
       </section>
 
-      <section className="border-y border-line bg-cream">
-        <div className="mx-auto max-w-[1280px] px-6 py-16 md:py-20">
-          <h2 className="text-4xl md:text-5xl">{t('menuTitle')}</h2>
-          <p className="mt-4 max-w-2xl text-lg text-muted">{t('menuLead')}</p>
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {picks.map((item) => (
-              <li key={item.id} className="border border-line bg-paper p-5">
-                <h3 className="text-xl">{item.title[lang]}</h3>
-                <p className="mt-2 text-sm text-muted">{item.body[lang]}</p>
-              </li>
-            ))}
-          </ul>
-          <Link href="/menu" className="mt-8 inline-block text-sm font-bold tracking-[0.12em] uppercase">
-            {t('menuMore')} →
-          </Link>
-        </div>
-      </section>
+      <WallpaperFrame innerClassName="mx-auto max-w-[1280px] px-6 py-16 md:px-10 md:py-20">
+        <h2 className="text-4xl md:text-5xl">{t('menuTitle')}</h2>
+        <p className="mt-4 max-w-2xl text-lg text-muted">{t('menuLead')}</p>
+        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {picks.map((item) => (
+            <li key={item.id} className="border border-line bg-cream p-5">
+              <h3 className="text-xl">{item.title[lang]}</h3>
+              <p className="mt-2 text-sm text-muted">{item.body[lang]}</p>
+            </li>
+          ))}
+        </ul>
+        <Link href="/menu" className="mt-8 inline-block text-sm font-bold tracking-[0.12em] uppercase">
+          {t('menuMore')} →
+        </Link>
+      </WallpaperFrame>
 
       <section className="mx-auto max-w-[1280px] px-6 py-16 md:py-20">
         <h2 className="text-4xl md:text-5xl">{t('photosTitle')}</h2>

@@ -94,3 +94,45 @@
   text-transform: uppercase;
   color: var(--gold);
 }
+
+.menu-wallpaper {
+  background-color: #5c161a;
+  background-image:
+    linear-gradient(165deg, rgb(122 31 36 / 0.32), rgb(26 16 16 / 0.5)),
+    url('/pattern/damask.jpg');
+  background-size: auto, 380px 380px;
+  background-position: center, center;
+  padding: 1.15rem 0.8rem 1.35rem;
+  box-shadow: inset 0 0 0 3px rgb(196 163 90 / 0.92);
+}
+
+@media (min-width: 768px) {
+  .menu-wallpaper {
+    background-size: auto, 420px 420px;
+    padding: 1.85rem 1.45rem 2.1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .menu-wallpaper {
+    padding: 2.25rem 1.9rem 2.5rem;
+  }
+}
+
+.menu-wallpaper-well {
+  position: relative;
+  background: var(--paper);
+  border: 2px solid var(--gold);
+  box-shadow:
+    0 0 0 1px rgb(26 16 16 / 0.28),
+    0 16px 36px rgb(26 16 16 / 0.18);
+}
+
+.menu-wallpaper-well::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border: 1px solid rgb(196 163 90 / 0.7);
+  pointer-events: none;
+  z-index: 1;
+}

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { WallpaperFrame } from '@/components/layout/WallpaperFrame';
 import { house, liveMenuUrl, locations } from '@/content/house';
 import { menu, menuNote } from '@/content/menu';
 import type { Locale } from '@/i18n/routing';
@@ -21,7 +22,7 @@ export default async function MenuPage({ params }: Props) {
   const lang = locale as Locale;
 
   return (
-    <div className="mx-auto max-w-[1080px] px-6 py-16 md:py-20">
+    <WallpaperFrame>
       <p className="kicker text-red">{t('kicker')}</p>
       <h1 className="mt-2 text-6xl md:text-8xl">{t('title')}.</h1>
       <p className="mt-6 max-w-2xl text-lg text-muted">{t('lead')}</p>
@@ -66,6 +67,6 @@ export default async function MenuPage({ params }: Props) {
       <a href={house.orderOnline} className="btn btn-red mt-8" target="_blank" rel="noreferrer">
         {house.orderOnline.replace('https://', '')}
       </a>
-    </div>
+    </WallpaperFrame>
   );
 }
