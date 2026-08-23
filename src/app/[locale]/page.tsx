@@ -1,5 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { GoldMark } from '@/components/GoldMark';
+import { GoldFlourish, GoldMark } from '@/components/GoldMark';
 import { WallpaperFrame } from '@/components/layout/WallpaperFrame';
 import { house, locations, plates } from '@/content/house';
 import { homePicks, menu } from '@/content/menu';
@@ -27,9 +27,14 @@ export default async function HomePage({ params }: Props) {
         <div className="absolute inset-0 bg-night/40" aria-hidden="true" />
         <div className="relative z-10 mx-auto flex min-h-[min(82vh,44rem)] max-w-[1280px] flex-col items-center justify-center px-6 pb-16 pt-28 text-center">
           <h1 className="hero-mark">
-            <GoldMark className="h-44 w-44 md:h-56 md:w-56 lg:h-64 lg:w-64" />
+            <GoldMark className="h-48 w-48 md:h-60 md:w-60 lg:h-72 lg:w-72" />
           </h1>
-          <p className="kicker mt-6">{t('kicker')}</p>
+          <p className="hero-wordmark mt-5">{house.name}</p>
+          <div className="mt-4 flex items-center gap-3">
+            <GoldFlourish className="h-5 w-28 md:h-6 md:w-36" />
+            <p className="kicker mt-0">{t('kicker')}</p>
+            <GoldFlourish className="h-5 w-28 scale-x-[-1] md:h-6 md:w-36" />
+          </div>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link href="/locations" className="btn btn-gold">
               {t('ctaLocations')}
