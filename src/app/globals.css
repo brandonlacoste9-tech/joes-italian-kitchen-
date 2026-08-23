@@ -105,18 +105,17 @@
 .hero-name {
   display: block;
   font-family: var(--font-heading), Georgia, serif;
-  font-size: clamp(4.4rem, 13vw, 8.2rem);
+  font-size: clamp(2.6rem, 6.4vw, 5.4rem);
   font-weight: 600;
-  line-height: 0.84;
+  line-height: 0.95;
   color: #fbf6ee;
   letter-spacing: -0.02em;
 }
 
-.hero-sub {
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.34em;
-  text-transform: uppercase;
+.hero-line {
+  font-size: clamp(1.05rem, 2.1vw, 1.35rem);
+  font-weight: 500;
+  line-height: 1.45;
   color: var(--gold);
 }
 

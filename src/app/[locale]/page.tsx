@@ -28,13 +28,8 @@ export default async function HomePage({ params }: Props) {
           aria-hidden="true"
         />
         <div className="relative z-10 mx-auto flex min-h-[min(86vh,48rem)] max-w-[1280px] flex-col justify-end px-6 pb-16 pt-28 md:pb-20">
-          <img src={house.logo} alt="" width={200} height={200} className="h-[4.5rem] w-[4.5rem] object-contain md:h-24 md:w-24" />
-          <p className="kicker mt-6">{t('benvenuti')}</p>
-          <h1 className="mt-2">
-            <span className="hero-name">Joe’s</span>
-            <span className="hero-sub mt-3 block">{t('nameLine')}</span>
-          </h1>
-          <p className="mt-5 max-w-sm text-[0.95rem] tracking-[0.18em] text-gold uppercase">{t('kicker')}</p>
+          <h1 className="hero-name max-w-xl">{house.name}</h1>
+          <p className="hero-line mt-5 max-w-md">{t('title')}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/locations" className="btn btn-gold">
               {t('ctaLocations')}
