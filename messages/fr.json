@@ -112,6 +112,18 @@
     "menu": "Les pinsas Joe’s",
     "note": "Les lignes santé du site Canada sont les leurs. Nous n’ajoutons pas de chiffres qu’ils n’impriment pas."
   },
+  "maitre": {
+    "title": "Maître",
+    "subtitle": "Heures, salles, pinsa, le menu. Pas OpenTable.",
+    "open": "Maître",
+    "close": "Fermer",
+    "mute": "Muet",
+    "unmute": "Parler",
+    "placeholder": "English or Italian…",
+    "send": "Envoyer",
+    "mic": "Micro",
+    "listening": "J’écoute"
+  },
   "music": {
     "playing": "Musique italienne",
     "idle": "Musique arrêtée",

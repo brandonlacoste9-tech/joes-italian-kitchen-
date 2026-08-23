@@ -50,11 +50,24 @@ export function AmbiancePlayer() {
       void start();
     }
 
+    function onMaitre(event: Event) {
+      const player = audioRef.current;
+      if (!player) return;
+      const speaking = Boolean((event as CustomEvent<{ speaking?: boolean }>).detail?.speaking);
+      if (speaking) {
+        player.volume = 0.05;
+        return;
+      }
+      player.volume = ROOM_VOLUME;
+    }
+
     window.addEventListener('pointerdown', onGesture);
     window.addEventListener('keydown', onGesture);
+    window.addEventListener('joes:maitre-speaking', onMaitre);
     return () => {
       window.removeEventListener('pointerdown', onGesture);
       window.removeEventListener('keydown', onGesture);
+      window.removeEventListener('joes:maitre-speaking', onMaitre);
     };
   }, []);
 

@@ -6,6 +6,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { RestaurantJsonLd } from '@/components/seo/RestaurantJsonLd';
 import { AlertBar } from '@/components/layout/AlertBar';
+import { Maitre } from '@/components/Maitre';
 import { AmbiancePlayer } from '@/components/layout/AmbiancePlayer';
 import { CallBar } from '@/components/layout/CallBar';
 import { SiteFooter } from '@/components/layout/SiteFooter';
@@ -73,6 +74,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <SiteFooter />
             <CallBar />
             <AmbiancePlayer />
+            <Maitre />
           </div>
         </NextIntlClientProvider>
       </body>

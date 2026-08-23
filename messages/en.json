@@ -112,6 +112,18 @@
     "menu": "Joe’s pinsas",
     "note": "Health and calorie lines on the Canada site are theirs. We do not add numbers they did not print."
   },
+  "maitre": {
+    "title": "Maître",
+    "subtitle": "Hours, rooms, pinsa, the board. Not OpenTable.",
+    "open": "Maître",
+    "close": "Close",
+    "mute": "Mute",
+    "unmute": "Speak",
+    "placeholder": "Ask in English or Italian…",
+    "send": "Send",
+    "mic": "Mic",
+    "listening": "Listening"
+  },
   "music": {
     "playing": "Italian music",
     "idle": "Music off",
