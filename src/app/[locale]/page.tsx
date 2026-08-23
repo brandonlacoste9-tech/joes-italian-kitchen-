@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { WallpaperFrame } from '@/components/layout/WallpaperFrame';
-import { house, locations, plates } from '@/content/house';
+import { house, locations } from '@/content/house';
 import { homePicks, menu } from '@/content/menu';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
@@ -108,18 +108,6 @@ export default async function HomePage({ params }: Props) {
           {t('menuMore')} →
         </Link>
       </WallpaperFrame>
-
-      <section className="mx-auto max-w-[1280px] px-6 py-16 md:py-20">
-        <h2 className="text-4xl md:text-5xl">{t('photosTitle')}</h2>
-        <p className="mt-4 max-w-2xl text-lg text-muted">{t('photosLead')}</p>
-        <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {plates.map((plate) => (
-            <li key={plate.src} className="relative min-h-[14rem] overflow-hidden border border-line">
-              <img src={plate.src} alt={plate.alt[lang]} className="absolute inset-0 h-full w-full object-cover" />
-            </li>
-          ))}
-        </ul>
-      </section>
     </>
   );
 }

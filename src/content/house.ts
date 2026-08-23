@@ -165,22 +165,3 @@ export const camelot = {
     fr: 'Leur page Pinsa & Panini existe encore. Elle imprime FERMÉ pour 60 Camelot Drive. Nous ne la présentons pas comme ouverte.',
   },
 } as const;
-
-export const plates = [
-  {
-    src: '/banner.jpg',
-    alt: { en: 'A Joe’s pinsa with tomatoes and basil, on a wooden peel.', fr: 'Une pinsa Joe’s, tomates et basilic.' },
-  },
-  {
-    src: '/interior.jpg',
-    alt: { en: 'Pinsa with arugula, prosciutto, and balsamic — as plated at Joe’s.', fr: 'Pinsa roquette, prosciutto et balsamique.' },
-  },
-  {
-    src: '/benvenuti.jpg',
-    alt: { en: 'A sliced pinsa with basil and green olives.', fr: 'Pinsa tranchée, basilic et olives vertes.' },
-  },
-  {
-    src: '/hero-preston.jpg',
-    alt: { en: 'Pinsas lined up by the oven.', fr: 'Pinsas alignées près du four.' },
-  },
-] as const;
