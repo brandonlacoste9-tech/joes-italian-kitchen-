@@ -9,6 +9,7 @@ import { Link, usePathname } from '@/i18n/navigation';
 
 const navItems = [
   { href: '/locations', key: 'locations' },
+  { href: '/pinsa', key: 'pinsa' },
   { href: '/menu', key: 'menu' },
   { href: '/hours', key: 'hours' },
   { href: '/about', key: 'about' },

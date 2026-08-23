@@ -38,6 +38,7 @@ export async function SiteFooter() {
       </div>
       <div className="mx-auto flex max-w-[1280px] flex-col gap-4 px-6 pb-6 md:flex-row md:items-end md:justify-between">
         <div className="flex flex-wrap gap-x-5 gap-y-2 text-[0.72rem] font-bold tracking-[0.16em] uppercase">
+          <Link href="/pinsa">{nav('pinsa')}</Link>
           <Link href="/menu">{nav('menu')}</Link>
           <Link href="/hours">{nav('hours')}</Link>
           <Link href="/gift-cards">{nav('gifts')}</Link>

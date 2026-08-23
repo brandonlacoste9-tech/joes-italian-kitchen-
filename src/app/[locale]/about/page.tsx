@@ -37,6 +37,9 @@ export default async function AboutPage({ params }: Props) {
         <Link href="/locations" className="btn btn-red">
           Locations
         </Link>
+        <Link href="/pinsa" className="btn btn-ghost">
+          Pinsa
+        </Link>
         <Link href="/menu" className="btn btn-ghost">
           Menu
         </Link>

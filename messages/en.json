@@ -5,6 +5,7 @@
   },
   "nav": {
     "skip": "Skip to content",
+    "pinsa": "Pinsa",
     "menu": "Menu",
     "close": "Close",
     "locations": "Locations",
@@ -97,6 +98,19 @@
     "map": "Map",
     "liveMenu": "Live dine-in page",
     "gift": "Gift card"
+  },
+  "pinsa": {
+    "kicker": "Pinsa Romana",
+    "title": "Pinsa",
+    "lead": "Joe’s prints Canada’s first certified Pinsaria. Oval dough, not round pizza. What follows is what they print, and what Pinsa Romana Canada prints — kept apart where the two boards do not match.",
+    "joesTitle": "On Joe’s board",
+    "canadaTitle": "On Pinsa Romana Canada",
+    "canadaLead": "pinsaromanacanada.ca — they sign the president as Joe Princiotta. Their wholesale bases are a separate product. Joe’s dine-in menus do not print those carton sizes.",
+    "canadaSite": "Pinsa Romana Canada",
+    "vs": "Pinsa vs pizza",
+    "flour": "The flour page",
+    "menu": "Joe’s pinsas",
+    "note": "Health and calorie lines on the Canada site are theirs. We do not add numbers they did not print."
   },
   "footer": {
     "line": "Simply Italian.",

@@ -87,8 +87,8 @@ export default async function HomePage({ params }: Props) {
         <div>
           <h2 className="text-4xl md:text-5xl">{t('pinsaTitle')}</h2>
           <p className="mt-4 text-lg text-muted">{t('pinsaLead')}</p>
-          <Link href="/menu" className="mt-6 inline-block text-sm font-bold tracking-[0.12em] uppercase">
-            {t('menuMore')} →
+          <Link href="/pinsa" className="mt-6 inline-block text-sm font-bold tracking-[0.12em] uppercase">
+            {t('pinsaTitle')} →
           </Link>
         </div>
       </section>
