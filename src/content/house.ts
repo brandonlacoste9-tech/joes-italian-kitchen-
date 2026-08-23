@@ -9,6 +9,7 @@ export const house = {
   orderOnline: 'https://joesitaliankitchen-1asc.mobi2go.com/',
   logo: '/logo.png',
   logoGold: '/logo-gold.png',
+  logoVintage: '/logo-vintage.png',
   hero: '/banner.jpg',
   benvenuti: '/benvenuti.jpg',
   pinsaBoard: '/interior.jpg',

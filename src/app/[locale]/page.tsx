@@ -30,11 +30,11 @@ export default async function HomePage({ params }: Props) {
         <div className="relative z-10 mx-auto flex min-h-[min(86vh,48rem)] max-w-[1280px] flex-col justify-end px-6 pb-16 pt-28 md:pb-20">
           <h1>
             <img
-              src={house.logo}
+              src={house.logoVintage}
               alt="Joe's Italian Kitchen"
-              width={200}
-              height={200}
-              className="h-44 w-44 object-contain md:h-64 md:w-64 lg:h-80 lg:w-80"
+              width={788}
+              height={800}
+              className="hero-stamp h-44 w-44 object-contain md:h-64 md:w-64 lg:h-80 lg:w-80"
             />
           </h1>
           <p className="hero-line mt-6 max-w-md">{t('title')}</p>
