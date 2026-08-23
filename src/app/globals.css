@@ -102,35 +102,22 @@
   color: var(--gold);
 }
 
-.hero-mark {
-  position: relative;
-  display: inline-block;
-}
-
-.hero-mark::before {
-  content: '';
-  position: absolute;
-  inset: 8%;
-  z-index: -1;
-  border-radius: 50%;
-  background: rgb(240 201 74 / 0.22);
-  filter: blur(22px);
-}
-
-.hero-mark svg {
+.hero-name {
   display: block;
-  overflow: visible;
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: clamp(4.4rem, 13vw, 8.2rem);
+  font-weight: 600;
+  line-height: 0.84;
+  color: #fbf6ee;
+  letter-spacing: -0.02em;
 }
 
-.hero-wordmark {
-  font-family: var(--font-heading), Georgia, serif;
-  font-size: clamp(1.85rem, 4.2vw, 3.15rem);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  color: #f5d76e;
-  text-shadow:
-    0 0 10px rgb(255 225 130 / 0.35),
-    0 2px 0 rgb(90 60 8 / 0.35);
+.hero-sub {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
 
 .menu-wallpaper {

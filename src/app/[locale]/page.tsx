@@ -1,5 +1,4 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { GoldFlourish, GoldMark } from '@/components/GoldMark';
 import { WallpaperFrame } from '@/components/layout/WallpaperFrame';
 import { house, locations, plates } from '@/content/house';
 import { homePicks, menu } from '@/content/menu';
@@ -22,27 +21,28 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
-      <section className="relative isolate min-h-[min(82vh,44rem)] overflow-hidden bg-night">
-        <img src={house.hero} alt={t('heroAlt')} className="absolute inset-0 h-full w-full object-cover object-center" />
-        <div className="absolute inset-0 bg-night/40" aria-hidden="true" />
-        <div className="relative z-10 mx-auto flex min-h-[min(82vh,44rem)] max-w-[1280px] flex-col items-center justify-center px-6 pb-16 pt-28 text-center">
-          <h1 className="hero-mark">
-            <GoldMark className="h-48 w-48 md:h-60 md:w-60 lg:h-72 lg:w-72" />
+      <section className="relative isolate min-h-[min(86vh,48rem)] overflow-hidden bg-night">
+        <img src={house.hero} alt={t('heroAlt')} className="absolute inset-0 h-full w-full object-cover object-[center_62%]" />
+        <div
+          className="absolute inset-0 bg-gradient-to-r from-night/82 via-night/28 to-transparent"
+          aria-hidden="true"
+        />
+        <div className="relative z-10 mx-auto flex min-h-[min(86vh,48rem)] max-w-[1280px] flex-col justify-end px-6 pb-16 pt-28 md:pb-20">
+          <img src={house.logo} alt="" width={200} height={200} className="h-[4.5rem] w-[4.5rem] object-contain md:h-24 md:w-24" />
+          <p className="kicker mt-6">{t('benvenuti')}</p>
+          <h1 className="mt-2">
+            <span className="hero-name">Joe’s</span>
+            <span className="hero-sub mt-3 block">{t('nameLine')}</span>
           </h1>
-          <p className="hero-wordmark mt-5">{house.name}</p>
-          <div className="mt-4 flex items-center gap-3">
-            <GoldFlourish className="h-5 w-28 md:h-6 md:w-36" />
-            <p className="kicker mt-0">{t('kicker')}</p>
-            <GoldFlourish className="h-5 w-28 scale-x-[-1] md:h-6 md:w-36" />
-          </div>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <p className="mt-5 max-w-sm text-[0.95rem] tracking-[0.18em] text-gold uppercase">{t('kicker')}</p>
+          <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/locations" className="btn btn-gold">
               {t('ctaLocations')}
             </Link>
-            <Link href="/menu" className="btn border border-gold bg-night/60 text-gold">
+            <Link href="/menu" className="btn border border-gold bg-night/70 text-gold">
               {t('ctaMenu')}
             </Link>
-            <a href={house.orderOnline} className="btn border border-gold bg-night/60 text-gold" target="_blank" rel="noreferrer">
+            <a href={house.orderOnline} className="btn border border-gold bg-night/70 text-gold" target="_blank" rel="noreferrer">
               {t('ctaOrder')}
             </a>
           </div>
