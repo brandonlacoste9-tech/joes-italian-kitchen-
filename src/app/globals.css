@@ -108,15 +108,24 @@
   font-size: clamp(2.6rem, 6.4vw, 5.4rem);
   font-weight: 600;
   line-height: 0.95;
-  color: #fbf6ee;
+  color: var(--gold);
   letter-spacing: -0.02em;
+  text-shadow: 0 2px 0 #000;
+}
+
+.hero-line-wrap {
+  line-height: 1.7;
 }
 
 .hero-line {
+  display: inline;
+  padding: 0.18em 0.42em;
   font-size: clamp(1.05rem, 2.1vw, 1.35rem);
-  font-weight: 500;
-  line-height: 1.45;
-  color: var(--gold);
+  font-weight: 600;
+  color: #1a1010;
+  background: var(--gold);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .menu-wallpaper {
